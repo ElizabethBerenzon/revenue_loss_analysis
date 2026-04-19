@@ -183,6 +183,8 @@ df.to_csv('churn_analysis_final.csv', index=False)
 print("the file is ready")
 ```
 Visuilization & Dashboarding (Tableau)
+--
 The final stage of the project involved building an iteractuve dashboard in Tableau to translate data to insights
- <img width="2398" height="1298" alt="Dashboard 3" src="https://github.com/user-attachments/assets/b8584981-8d21-4701-88db-c7eceb20f315" />
+
+<img width="1234" height="658" alt="Снимок экрана 2026-04-19 в 17 58 56" src="https://github.com/user-attachments/assets/ce251836-730e-46e7-9c55-1930d4aef6f6" />
 
