@@ -97,7 +97,10 @@ ORDER BY churn_rate_percentage DESC;
 <img width="657" height="245" alt="Снимок экрана 2026-04-18 в 09 51 46" src="https://github.com/user-attachments/assets/00d276ff-dbd1-4c4b-afde-6f44988a8f80" />
 
 
--- Step 4 Early warning Signals (Downgrade Pattern Analysis)
+Step 4
+--
+Early warning Signals (Downgrade Pattern Analysis)
+```
 Select                    
 preceding_downgrade_flag, -- if user's purchases were decreased earlier
 Count(*) as total_cases,  -- it will be indicator
@@ -106,6 +109,7 @@ Case when churn_date is not null then 1
 else 0 End) as churned_count             
 From ravenstack_churn_events r 
 group by preceding_downgrade_flag ;
+```
 
 -- Step 5 Refund and Cash outflow audit
 SELECT                                     
