@@ -44,9 +44,12 @@ LEFT JOIN ravenstack_churn_events c ON a.account_id = c.account_id
 Limit 1000;
 ```
 Using here left join for identifying not only churned accounts because null here will mean that account is active
+<img width="1131" height="293" alt="Снимок экрана 2026-04-18 в 09 20 25" src="https://github.com/user-attachments/assets/2e2d7d84-d510-4e3c-9c43-5331d778513f" />
 
-
--- Step 2 Revenue loss analysis by Churn reason
+Step 2 
+--
+Revenue loss analysis by Churn reason
+```
 Select 
 reason_code,     -- identify the reason
 Count(churn_event_id) as total_churns,
@@ -60,6 +63,10 @@ on r.account_id = s2.account_id
 where reason_code is not null
 group by reason_code
 Order by lost_mrr;
+```
+
+<img width="657" height="245" alt="Снимок экрана 2026-04-18 в 09 20 46" src="https://github.com/user-attachments/assets/3f1f8155-3bf7-4337-8c66-61cbb0262607" />
+
  
 -- Step 3  Calculation Churn Rate of each kind of industry
 SELECT 
