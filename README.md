@@ -16,4 +16,10 @@ Tech Stack:
  * Python (Pandas):Data cleaning,creationg new attribute and saving new csv file.
  * Tableu: Developing an interactive dashboard to visualize in which industries was revenue decline
 
-
+Technical Workflow
+--
+* 1.Datasets & SQL extraction
+ravenstack_accounts: To segment users by Industry (FinTech, EdTech, DevTools, etc.).
+ravenstack_subscriptions: To track MRR (Monthly Recurring Revenue) and billing cycles.
+ravenstack_churn_events: To identify the specific Reason Codes for customer departures.
+<img width="594" height="608" alt="Снимок экрана 2026-04-18 в 17 17 27" src="https://github.com/user-attachments/assets/5e417fe3-44f2-4b4a-9400-2ab8a4cacf5f" />
