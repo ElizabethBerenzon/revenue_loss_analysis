@@ -126,3 +126,11 @@ Order by  refund_amount_valeu DESC;
 ```
 <img width="630" height="182" alt="Снимок экрана 2026-04-19 в 16 09 35" src="https://github.com/user-attachments/assets/49501620-f54b-4ca5-87a4-b42c708312bd" />
 
+Data Processing & Analysis (Python)
+--
+I used Python after extracting the necessary datasets from SQL.
+* Utilized Pandas for data manipulation
+* Murged multiple CSV exports
+* Created new attribute
+* Export developed new CSV file
+  
