@@ -110,8 +110,12 @@ else 0 End) as churned_count
 From ravenstack_churn_events r 
 group by preceding_downgrade_flag ;
 ```
+<img width="657" height="245" alt="Снимок экрана 2026-04-18 в 09 51 46" src="https://github.com/user-attachments/assets/f370e0fa-f8e0-4915-a13c-e619b29b9086" />
 
--- Step 5 Refund and Cash outflow audit
+Step 5 
+--
+Refund and Cash outflow audit
+```
 SELECT                                     
 reason_code,          -- segmantation by reason
 Avg(refund_amount_usd) as refund_amount_valeu,  -- average amount of refund of each reason
@@ -119,4 +123,6 @@ Sum(refund_amount_usd) as total_cash_out    -- the lost revenue, segmented one
 From ravenstack_churn_events r 
 Group by r.reason_code 
 Order by  refund_amount_valeu DESC;
+```
+<img width="630" height="182" alt="Снимок экрана 2026-04-19 в 16 09 35" src="https://github.com/user-attachments/assets/49501620-f54b-4ca5-87a4-b42c708312bd" />
 
