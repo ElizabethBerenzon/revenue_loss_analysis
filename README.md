@@ -1,4 +1,19 @@
 # revenue_loss_analysis
+```
+├── data/
+│   ├── raw/                 # Original CSV files (raw data)
+│   └── processed/           # New CSV file (cleaned and enriched via Python)
+├── sql/
+│   └── extraction_query.sql # SQL scripts for data discovery and joining
+├── notebooks/
+│   └── analysis.py      # Python code (Cleaning, Feature Engineering, EDA)
+├── visuals/
+│   ├── dashboard.png        # Screenshot of the final Tableau Dashboard
+│   └── table_schema.png     # Photos/Diagrams of the database tables
+├── README.md                # Project documentation (Project goals, insights, etc.)
+└── requirements.txt         # List of Python libraries used
+```
+
 Project Overview
 --
 This project focuses on identifying the root cause of revenue decline and churned users segmenting them  by industry and reason.
@@ -190,7 +205,7 @@ The final stage of the project involved building an iteractuve dashboard in Tabl
 
 Key Insights
 --
-*Dominant Churn Segment : The DevTools industry was the most affected by user attrition,accounting 23% of all churned accounts.This highlights a critical need for product-market fit evaluation within developer community.
-*Primary Churn Drivers: Features:The #1 reason for leaving,the #2 reason is pricing.The gap betweeen reasons is minimal.
-*Revenue Loss : While DevTools had the highest churned users,the Fintech industry represented the highest financial loss per subscriprion.
+* Dominant Churn Segment : The DevTools industry was the most affected by user attrition,accounting 23% of all churned accounts.This highlights a critical need for product-market fit evaluation within developer community.
+* Primary Churn Drivers: Features:The #1 reason for leaving,the #2 reason is pricing.The gap betweeen reasons is minimal.
+* Revenue Loss : While DevTools had the highest churned users,the Fintech industry represented the highest financial loss per subscriprion.
 Losing one Fintech client had a significantly larger impact on company's income.
