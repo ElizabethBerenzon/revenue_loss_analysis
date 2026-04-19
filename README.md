@@ -188,3 +188,9 @@ The final stage of the project involved building an iteractuve dashboard in Tabl
 
 <img width="1234" height="658" alt="Снимок экрана 2026-04-19 в 17 58 56" src="https://github.com/user-attachments/assets/ce251836-730e-46e7-9c55-1930d4aef6f6" />
 
+Key Insights
+--
+*Dominant Churn Segment : The DevTools industry was the most affected by user attrition,accounting 23% of all churned accounts.This highlights a critical need for product-market fit evaluation within developer community.
+*Primary Churn Drivers: Features:The #1 reason for leaving,the #2 reason is pricing.The gap betweeen reasons is minimal.
+*Revenue Loss : While DevTools had the highest churned users,the Fintech industry represented the highest financial loss per subscriprion.
+Losing one Fintech client had a significantly larger impact on company's income.
