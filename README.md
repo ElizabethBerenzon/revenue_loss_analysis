@@ -67,8 +67,11 @@ Order by lost_mrr;
 
 <img width="657" height="245" alt="Снимок экрана 2026-04-18 в 09 20 46" src="https://github.com/user-attachments/assets/3f1f8155-3bf7-4337-8c66-61cbb0262607" />
 
- 
--- Step 3  Calculation Churn Rate of each kind of industry
+Step 3  
+--
+Calculation Churn Rate of each kind of industry
+
+```
 SELECT 
     industry,   -- segmentation
     COUNT(account_id) AS total_accounts,  
@@ -90,6 +93,9 @@ SELECT
 FROM ravenstack_accounts r
 GROUP BY industry
 ORDER BY churn_rate_percentage DESC;
+```
+<img width="657" height="245" alt="Снимок экрана 2026-04-18 в 09 51 46" src="https://github.com/user-attachments/assets/00d276ff-dbd1-4c4b-afde-6f44988a8f80" />
+
 
 -- Step 4 Early warning Signals (Downgrade Pattern Analysis)
 Select                    
