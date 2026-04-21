@@ -18,6 +18,11 @@ Project Overview
 --
 This project focuses on identifying the root cause of revenue decline and churned users segmenting them  by industry and reason.
 The goal was to provide actionable insights to help business reduce churn,optimize payment processes,and improve customer retention.
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![SQL](https://img.shields.io/badge/sql-%2300758F.svg?style=for-the-badge&logo=sqlite&logoColor=white)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white)
+
 
 Key Business Questions:
 --
